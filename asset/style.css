@@ -1,0 +1,64 @@
+/* bagian umum */
+* {
+   box-sizing: border-box;
+}
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin: 0;
+   padding: 0%;
+}
+h2, h3 {
+   color:00ADB5;
+}
+p {
+   text-indent: 2em;
+   font-family: sans-serif;
+   text-align: justify;
+}
+#letter_spacing {
+   letter-spacing: 4px;
+}
+.card {
+   box-shadow: 0 4px 8px 0 #393E46;
+   border-radius: 5px;
+   padding: 20px;
+   margin: 20px;
+   
+}
+/* Bagian Header */
+.jumbotron { 
+   font-size: 20px;
+   padding: 60px;
+   background-color: #EEEEEE;
+   background-image: url("asset/img/Artboard 1.png");
+   text-align: center;
+   color: #393E46;
+}
+.jumbotron p {
+   text-align: center;
+}
+/* Bagian Navbar */
+nav {
+   background-color: #393E46;
+   padding: 5px;
+   position: sticky;
+   top: 0;
+
+}
+nav a {
+   font-size: 18px;
+   font-weight: 400 ;
+   text-decoration: none;
+   color:#EEEEEE;
+
+}
+nav ul li a:hover {
+   font-weight: bold;
+   color:#00ADB5;
+
+}
+nav li {
+   display:inline;
+   list-style-type: none;
+   margin-right: 20px;
+}
