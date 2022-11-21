@@ -1,6 +1,9 @@
-﻿# Submission Web Dasar
- 
- <h4>Poin - Poin </h4>
+﻿# Submission Web Dasar Dicoding
+ Submission: Tugas Akhir Membuat Website
+
+
+
+<h4>Poin - Poin </h4>
 <li>Terdapat elemen Header, Footer, Main, Article, dan Aside.</li>
 <li>Masing-masing elemen wajib berisi konten yang peruntukkannya sesuai dengan elemen tersebut (menerapkan konsep semantic HTML dalam menyusun struktur website).
 Sebagai contoh: Header berisi judul dan navigation.</li>
