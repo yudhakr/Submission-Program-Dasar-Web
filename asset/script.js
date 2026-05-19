@@ -1,23 +1,25 @@
-let card = document.querySelectorAll('.card');
-for (cards of card) {
-    cards.addEventListener('mouseover', function (event) {
-        if (event.target.id === "aini") {
-            event.target.setAttribute("src", "asset/img/laptop1.jpeg");
-            return;
-        } else if (event.target.id === "ragam") {
-            event.target.setAttribute("src", "assets/img/lenovo1.jpeg");
-            return;
-        }
-    });
-
-    cards.addEventListener('mouseout', function (event) {
-        if (event.target.id === "aini") {
-            event.target.setAttribute("src", "assets/image/laptop.jpeg");
-            return;
-        }
-        if (event.target.id === "ragam") {
-            event.target.setAttribute("src", "assets/image/lenovo.jpeg");
-            return;
-        }
-    });
+/* Script untuk Navbar Responsive */
+function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
 }
+
+
+/* Script untuk Hover Gambar (Opsional, pastikan ID sesuai di HTML) */
+let cards = document.querySelectorAll('.featured-image');
+cards.forEach(img => {
+    img.addEventListener('mouseover', function() {
+        if (this.id === "aini") {
+            this.src = "asset/img/laptop1.jpeg";
+        }
+    });
+    img.addEventListener('mouseout', function() {
+        if (this.id === "aini") {
+            this.src = "asset/img/laptop.jpeg";
+        }
+    });
+});
